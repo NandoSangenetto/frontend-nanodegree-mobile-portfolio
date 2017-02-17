@@ -1,0 +1,30 @@
+{
+  "name": "frontend-nanodegree-mobile-portfolio",
+  "version": "1.0.0",
+  "description": "Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nandosangenetto/frontend-nanodegree-mobile-portfolio.git"
+  },
+  "author": "Nando Sangenetto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nandosangenetto/frontend-nanodegree-mobile-portfolio/issues"
+  },
+  "homepage": "https://github.com/nandosangenetto/frontend-nanodegree-mobile-portfolio#readme",
+  "devDependencies": {
+    "clean-css": "^4.0.7",
+    "eslint": "^3.15.0",
+    "html-minifier": "^3.3.1",
+    "imagemin": "^5.2.2",
+    "imagemin-webp": "^4.0.0",
+    "psi": "^3.0.0",
+    "psi-ngrok": "^0.1.2",
+    "stylelint": "^7.8.0",
+    "uglify-js": "^2.7.5"
+  }
+}
