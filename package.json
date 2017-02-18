@@ -4,7 +4,8 @@
   "description": "Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "./node_modules/gulp/bin/gulp.js --silent",
+    "online": "./node_modules/gulp/bin/gulp.js online --silent"
   },
   "repository": {
     "type": "git",
@@ -17,14 +18,16 @@
   },
   "homepage": "https://github.com/nandosangenetto/frontend-nanodegree-mobile-portfolio#readme",
   "devDependencies": {
-    "clean-css": "^4.0.7",
-    "eslint": "^3.15.0",
-    "html-minifier": "^3.3.1",
-    "imagemin": "^5.2.2",
-    "imagemin-webp": "^4.0.0",
+    "colors": "^1.1.2",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.0.2",
+    "gulp-connect": "^5.0.0",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-uglify": "^2.0.1",
+    "gulp-webp": "^2.3.0",
+    "ngrok": "^2.2.6",
     "psi": "^3.0.0",
-    "psi-ngrok": "^0.1.2",
-    "stylelint": "^7.8.0",
     "uglify-js": "^2.7.5"
   }
 }
