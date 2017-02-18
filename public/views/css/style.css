@@ -21,6 +21,10 @@ form {
   display: inline-block;
 }
 
+h4 {
+  text-transform: capitalize;
+}
+
 .centered {
   text-align: center;
 }
